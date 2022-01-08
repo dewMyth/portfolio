@@ -1,10 +1,11 @@
-import { Intro, About } from "./components";
+import { Intro, About, Product, ProductList } from "./components";
 
 const App = () => {
   return (
     <div className="App">
       <Intro />
       <About />
+      <ProductList />
     </div>
   );
 };
