@@ -87,3 +87,22 @@
   top: 0;
   right: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-left-wrapper {
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .intro-bg,
+  .intro-img {
+    display: none;
+  }
+  /* .intro-desc {
+    display: none;
+  } */
+}

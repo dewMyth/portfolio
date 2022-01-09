@@ -3,3 +3,4 @@ export { default as About } from "./about/About";
 export { default as Product } from "./Product/Product";
 export { default as ProductList } from "./ProductList/ProductList";
 export { default as Contact } from "./contact/Contact";
+export { default as Toggle } from "./toggle/Toggle";

@@ -81,3 +81,37 @@ button {
   color: white;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+  .c-title {
+    font-size: 30px;
+  }
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .c-desc {
+    display: none;
+  }
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+  }
+  textarea {
+    margin: 10px;
+  }
+  button {
+    width: 100%;
+  }
+}
