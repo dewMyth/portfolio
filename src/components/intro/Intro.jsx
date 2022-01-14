@@ -1,28 +1,30 @@
 import "./Intro.css";
-import Portrait from "../../img/man.png";
+import Portrait from "../../img/me.png";
 
 const Intro = () => {
   return (
     <div className="intro">
       <div className="intro-left">
         <div className="intro-left-wrapper">
-          <h2 className="intro-intro">Hello, I am </h2>
-          <h1 className="intro-name">Dewmith Akalanka</h1>
+          <div className="intro-intro">Hello, My name is</div>
+          <h1 className="intro-name">
+            DEWMITH <br /> AKALANKA
+          </h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">Web Developer</div>
-              <div className="intro-title-item">Frontend Engineer</div>
+              <div className="intro-title-item">Frontend Developer</div>
               <div className="intro-title-item">React Developer</div>
               <div className="intro-title-item">NodeJS Developer</div>
-              <div className="intro-title-item">UI/UX Designer</div>
+              <div className="intro-title-item">IT Enthusiast</div>
             </div>
           </div>
-          <p className="intro-desc">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
-            harum eveniet modi fugiat reprehenderit veniam, odit ad consectetur
-            aspernatur expedita. Voluptatum ex odio unde labore doloribus
-            similique ratione non consequuntur?
-          </p>
+          <div className="intro-desc">
+            A tech enthusiastic with a great passion for full stack web
+            development seeking a position in an industry where I can put into
+            practice my knowledge and experience, ultimately benefiting the
+            operations of the organization that I work for.
+          </div>
         </div>
         <svg
           width="75"

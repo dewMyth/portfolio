@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "./context";
+import "./fonts/Gill-Sans-MT-Bold.ttf";
 
 ReactDOM.render(
   <React.StrictMode>
