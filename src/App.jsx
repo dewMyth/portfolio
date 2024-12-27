@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import {
@@ -12,7 +13,7 @@ import {
   StarsCanvas,
 } from "./components";
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -32,6 +33,6 @@ const App = () => {
       </div>
     </BrowserRouter>
   );
-};
+}
 
 export default App;
