@@ -26,7 +26,6 @@ const Hero = () => {
             applications and microservices.
           </p>
         </div>
-        <br />
       </div>
       <ComputersCanvas />
       <div className="xs:bottom-10 bottom-32 w-full flex justify-center items-center">
