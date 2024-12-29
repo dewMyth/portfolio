@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -59,7 +60,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div>
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Professional Journey</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
