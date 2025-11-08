@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node server.js",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve dist"
   },
   "engines": {
     "node": "21.6.1"
@@ -25,6 +24,7 @@
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
+    "serve": "^14.2.4",
     "three": "^0.149.0"
   },
   "devDependencies": {
