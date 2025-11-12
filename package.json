@@ -9,9 +9,6 @@
     "preview": "vite preview",
     "start": "serve dist"
   },
-  "engines": {
-    "node": "21.6.1"
-  },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.56.24",
